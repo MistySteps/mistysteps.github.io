@@ -110,7 +110,7 @@ An Application-Centric Approach</strong></h1></center>
    </h2></font>
 
 <center><font size="-1"><h2>
-        Anonymous Affiliation</a>&nbsp;&nbsp;&nbsp; 
+        Anonymous Affiliation&nbsp;&nbsp;&nbsp; 
 </h2></font></center>
 <center><span style="font-size:20px;">ACM SenSys 2025</span></center>
 <center><h2><a href="">Paper</a> | <a href="https://github.com/MistySteps/X2V-EES">Code</a> | <a href="https://drive.google.com/drive/folders/1gAFsjYsjOiEH-U50wPoFzfS9-YYh_UwL?usp=drive_link">Dataset</a> | <a href="#bibtex">Bibtex</a> </h2></center>
