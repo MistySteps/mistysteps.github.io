@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>LANGUAGE-CONDITIONED MULTI-STYLE POLICIES WITH REINFORCEMENT LEARNING</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="XXXX"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="XXXX">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="XXXX"></script>
+  <script src="XXXX"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">LANGUAGE-CONDITIONED MULTI-STYLE POLICIES WITH REINFORCEMENT LEARNING</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Anonymous Author</a><sup></sup></span>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Anonymous institution<br>ICLR 2025 under review</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="XXXX<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="XXXX REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="XXXX<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop" style="max-width: 45%">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%" style="width: 100%;">
+        <!-- Your video here -->
+        <source src="static/videos/5v5_demo_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        The team on the left is the instruction-controlled team.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent studies have explored the application of large language models (LLMs)
+            in language-conditioned reinforcement learning (LC-RL). These studies typically
+            involve training RL agents to follow human instructions in domains such as object
+            manipulation, navigation, or text-based environments. To extend these capabilities for following high-level and abstract language instructions with diverse style
+            policies in complex environments, we propose a novel method called LCMSP,
+            which can generate language-conditioned multi-style policies. LCMSP first trains
+            a multi-style RL policy capable of achieving different meta-behaviors, which can
+            be controlled by corresponding style parameters. Subsequently, LCMSP leverages
+            the reasoning capabilities and common knowledge of LLMs to align language instructions with style parameters, thereby realizing language-controlled multi-style
+            policies. Experiments conducted in various environments and with different types
+            of instructions demonstrate that the proposed LCMSP is capable of understanding
+            high-level abstract instructions and executing corresponding behavioral styles in
+            complex environments
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="image-container">
+        <div class="image-item">
+          <img src="static/images/training_process.png" alt="First image" style="width: 85%; display: block; margin: auto;"/>
+          <h2 class="subtitle has-text-centered">
+            LCMSP training process
+          </h2>
+
+          <img src="static/images/two_tactics.png" alt="Second image" style="width: 85%; display: block; margin: auto;"/>
+          <h2 class="subtitle has-text-centered">
+            Show case of two different style in GRF 5v5 scenario
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End image section -->
+
+<!-- Paper methond -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Multi-style policy training</h2>
+        <div class="content has-text-justified">
+          <p>
+            LCMSP enables a single model to be trained with diverse behavioral styles that can be flexibly controlled by multi-style parameters. The first figure at the top shows the training process.
+            For each training scenario, we initially design the agent’s meta-behaviors, followed by a reward shaping process for these meta-behaviors.
+            This process establishes the relationship between the style parameters and the corresponding meta behaviors. Before each episode, 
+            the style generator produces a set of style parameters. These parameters dictate the magnitude of the rewards obtained when the agent executes the associated
+            meta-behaviors within the environment. Upon receiving the environment’s state and style parameters, the agent get the corresponding action 
+            from the policy model and executes it. Subsequently, the environment provides the reward for the current action and the next state. These data is then fed
+            into the RL algorithm for training, and through continuous iterations, new policies are generated.
+            The second figure at the top shows two styles of a trained policy in the Google Research Football (GRF) 5v5 scenario.
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper methond -->
+
+<!-- Image section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="image-container">
+        <div class="image-item">
+          <img src="static/images/inference_process.png" alt="First image" style="width: 85%; display: block; margin: auto;"/>
+          <h2 class="subtitle has-text-centered">
+            LCMSP inference process
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End image section -->
+
+<!-- Paper methond -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Aligning language instructions with target policies</h2>
+        <div class="content has-text-justified">
+          <p>
+            The figure at the top shows the inference process of the LCMSP method. During inference, when an instruction is provided to the
+            system, the LLM combines the pre-prepared prompt with the instruction to generate a corresponding
+            response. This response is then transformed into a style parameter, denoted as ω. Unless new instructions are received,
+            the agent continues to operate using the last set of style parameters. Generating style parameters directly from instructions poses
+            a significant challenge for LLMs. This process requires understanding each parameter’s meaning,
+            identifying those relevant to the instruction, and determining their specific values. To address these challenges, we propose a prompt method capable of interpreting the instruction
+            and generating appropriate style parameters to guide the multi-style policy. We refer to this method
+            as the Degree-to-Parameter prompt (DTP). The process of the DTP method is shown in the figure below. The process consists of three fundamental modules: background information, an introduction
+            of style parameters, and an introduction table of style types. For a given scenario, the contents of
+            these modules remain constant. User instructions are integrated with these modules to form the
+            complete prompt, which is then input into the LLM to obtain a style degree table. A new set of style
+            parameters is then generated based on the style degree table.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper methond -->
+
+<!-- Image section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="image-container">
+        <div class="image-item">
+          <img src="static/images/prompt.png" alt="First image"/ style="width: 85%; display: block; margin: auto;">
+          <h2 class="subtitle has-text-centered">
+            DTP method process
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End image section -->
+
+<!-- Paper methond -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="image-container">
+      <div class="image-item">
+        <img src="static/images/training_scenario.png" alt="First image"/>
+      </div>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Experiments</h2>
+        <div class="content has-text-justified">
+          <p>
+            To evaluate the proposed LCMSP method, we designed four scenarios based on two popular RL
+            environments: Highway and GRF. In the GRF environment, we developed three scenarios involving
+            single-player, two-player, and 5v5. The image above shows four scenarios. Initially, we conducted experiments to test LCMSP’s ability to
+            follow low-level human instructions in the Highway environment and in the single-player and two-player 
+            GRF scenarios. Subsequently, we evaluated LCMSP on the 5v5 scenario of GRF, a complex environment characterized 
+            by long-horizon, multi-agents, to demonstrate its capability in understanding and executing high-level human instructions. 
+            The figure below shows the results of the LCMSP method accepting complex tactical instructions in combination with different LLMs in the complex 5v5 environment.
+            The video below demonstrates the effectiveness of the LCMSP method in executing natural language instructions in different scenarios of the GRF environment.
+        </div>
+      </div>
+    </div>
+    <div class="image-container">
+      <div class="image-item">
+        <img src="static/images/5v5_nl_radar.png" alt="First image"/>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper methond -->
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop" style="max-width: 45%">
+    <div class="hero-body">
+      <br>
+      <br>
+      <br>
+      <h2 class="title is-3">GRF single-player scenario</h2>
+      <br>
+      <video poster="" id="tree" autoplay controls muted loop height="100%" style="width: 100%;">
+        <!-- Your video here -->
+        <source src="static/videos/language_control_single_player.mp4"
+        type="video/mp4">
+      </video>
+      <br>
+      <br>
+      <br>
+      <h2 class="title is-3">GRF two-player scenario</h2>
+      <br>
+      <video poster="" id="tree" autoplay controls muted loop height="100%" style="width: 100%;">
+        <!-- Your video here -->
+        <source src="static/videos/language_control_two_player.mp4"
+        type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container" style="max-width: 46%">
+      <h2 class="title is-3">&nbsp;&nbsp;&nbsp;GRF 5v5 scenario</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/language_control_5v5_1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/language_control_5v5_2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <!-- Your video file here -->
+            <source src="static/videos/language_control_5v5_3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper methond -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Additional style parameter control video</h2>
+        <div class="content has-text-justified">
+          <p>
+            The trained multi-style strategies can also be controlled through style parameters. 
+            We provide videos showing how to control the policy using style parameters in the GRF environment. 
+            The explanation on the left side of the video shows the meanings of the adjustable style parameters in this scenario.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper methond -->
+
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">GRF single-player scenario</h2>
+      <div class="carousel-container">
+        <div class="description-column">
+          <h4>Parameter Descriptions:</h4>
+          <ul>
+            <li><strong>active_area_x</strong>
+              <ul>
+                <li>0: front</li>
+                <li>1: middle</li>
+                <li>2: back</li>
+              </ul>
+            </li>
+            <li><strong>active_area_y</strong>
+              <ul>
+                <li>0: left</li>
+                <li>1: center</li>
+                <li>2: right</li>
+              </ul>
+            </li>
+            <li><strong>shot</strong>
+              <ul>
+                <li>0: goal area shot</li>
+                <li>1: penalty area shot</li>
+              </ul>
+            </li>
+            <li><strong>move</strong>
+              <ul>
+                <li>0: run</li>
+                <li>1: sprint</li>
+                <li>2: dribble</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-video1">
+            <div class="video-description">Description for Video 1</div>
+            <video poster="" id="video1" autoplay controls muted loop height="100%">
+              <source src="static/videos/param_control_single_player_navigate.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+          <div class="item item-video2">
+            <div class="video-description">Description for Video 2</div>
+            <video poster="" id="video2" autoplay controls muted loop height="100%">
+              <source src="static/videos/param_control_single_player_shot.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+<style>
+  .carousel-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  .description-column {
+    width: 200px;
+    font-size: 0.9em;
+    padding-right: 20px;
+    flex-shrink: 0;
+  }
+  .description-column ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .description-column ul ul {
+    padding-left: 20px;
+  }
+  .carousel {
+    flex-grow: 1;
+    overflow: hidden;
+  }
+  .item {
+    width: 100%;
+  }
+</style>
+
+
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">GRF two-player scenario</h2>
+      <div class="carousel-container">
+        <div class="description-column">
+          <h4>Parameter Descriptions:</h4>
+          <ul>
+            <li><strong>formation</strong>
+              <ul>
+                <li>0: front</li>
+                <li>1: middle</li>
+                <li>2: back</li>
+              </ul>
+            </li>
+            <li><strong>move</strong>
+              <ul>
+                <li>0: run</li>
+                <li>1: sprint</li>
+                <li>2: dribble</li>
+              </ul>
+            </li>
+            <li><strong>shot</strong>
+              <ul>
+                <li>0: goal area shot</li>
+                <li>1: penalty area shot</li>
+              </ul>
+            </li>
+            <li><strong>hold_ball</strong>
+              <ul>
+                <li>0: not active</li>
+                <li>1: active</li>
+              </ul>
+            </li>
+            <li><strong>pass</strong>
+              <ul>
+                <li>0: not active</li>
+                <li>1: active</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div id="results-carousel" class="carousel results-carousel">
+
+          <div class="item item-video1">
+            <div class="video-description">Description for Video 1</div>
+            <video poster="" id="video1" autoplay controls muted loop height="100%">
+              <source src="static/videos/param_control_two_player_navigate.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+          <div class="item item-video2">
+            <div class="video-description">Description for Video 2</div>
+            <video poster="" id="video2" autoplay controls muted loop height="100%">
+              <source src="static/videos/param_controL_two_player_pass.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="item item-video3">
+            <div class="video-description">Description for Video 3</div>
+            <video poster="" id="video3" autoplay controls muted loop height="100%">
+              <source src="static/videos/param_control_two_player_shot.mp4" type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+<style>
+  .carousel-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  .description-column {
+    width: 200px;
+    font-size: 0.9em;
+    padding-right: 20px;
+    flex-shrink: 0;
+  }
+  .description-column ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .description-column ul ul {
+    padding-left: 20px;
+  }
+  .carousel {
+    flex-grow: 1;
+    overflow: hidden;
+  }
+  .item {
+    width: 100%;
+  }
+</style>
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@inproceedings{
+        anonymous2024languageconditioned,
+        title={Language-conditioned Multi-Style Policies with Reinforcement Learning},
+        author={Anonymous},
+        booktitle={Submitted to The Thirteenth International Conference on Learning Representations},
+        year={2024},
+        url={XXXX},
+        note={under review}
+        }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="XXXX" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="XXXX" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="XXXX" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"915caf9468a567ca","version":"2025.1.0","r":1,"token":"a91e086813be4c85866426ceaf974bfc","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+</body>
+  </html>
