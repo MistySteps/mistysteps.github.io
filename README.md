@@ -127,7 +127,7 @@ SEE-V2X is a real-world C-V2X dataset, using commercial off-the-shelf standard c
 
 <table border="0" cellspacing="10" cellpadding="0" align="center">
   <tbody><tr><td align="center">
-<img src="./media/Intersection.png" alt="Intro">
+<img src="./media/Intersection.png" width="1000" alt="Intro">
 </td></tr>
 </tbody>
 </table>
